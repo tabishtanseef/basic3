@@ -154,11 +154,12 @@ $(document).ready(function(){
 
 
 function tab(){
-	if(count>=28){
+	if(count>=27){
 		play('well-done.mp3');
 		$('.wrapper').addClass('hidden')
 		$('.tab').removeClass('hidden')
 		$('h3').addClass('hidden')
+		$('h1').addClass('hidden')
 		$('h2').addClass('hidden')
 		$('audio').addClass('hidden')
 	}
